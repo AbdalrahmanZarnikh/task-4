@@ -1,0 +1,10 @@
+.my-border-prime{
+    border-color: var(--prime) !important;
+}
+.my-border{
+    border-right: 2px solid rgba(128, 128, 128, 0.388);
+    
+}
+.pointer{
+    cursor: pointer;
+}

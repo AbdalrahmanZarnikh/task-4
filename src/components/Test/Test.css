@@ -1,0 +1,43 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .image-wrapper {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    text-align: center;
+    opacity: 0.5;
+    transform: scale(0.8); /* تقليل حجم الصور الجانبية */
+  }
+  
+  .active-center {
+    transform: scale(1.2); /* تكبير الصورة في المركز */
+    opacity: 1;
+  }
+  
+  .adjacent {
+    transform: scale(1); /* حجم متوسط للصور الجانبية */
+    opacity: 0.7;
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .prev-btn {
+    left: -40px;
+  }
+  
+  .next-btn {
+    right: -40px;
+  }
+  

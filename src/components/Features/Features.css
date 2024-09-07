@@ -1,0 +1,12 @@
+.head{
+    position: relative;
+}
+.head::after{
+    content: "";
+    position: absolute;
+    background-color: var(--prime);
+    height: 4px;
+    width: 60px;
+    left: 0;
+    bottom:-20px;
+}

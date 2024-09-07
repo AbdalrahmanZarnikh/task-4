@@ -1,0 +1,13 @@
+.title{
+  position: relative;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: var(--prime);
+}

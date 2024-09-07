@@ -1,0 +1,12 @@
+.move-image{
+    position: absolute;
+    left: 20px;
+    bottom:-150px;
+}
+
+.slick-track{
+    margin: 30px;
+}
+.m{
+    max-width: 600px;
+}

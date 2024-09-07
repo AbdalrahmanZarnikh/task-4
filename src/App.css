@@ -1,0 +1,33 @@
+:root{
+    --prime:rgba(0, 179, 255, 0.719);
+    --second:rgba(0, 255, 255, 0.598);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.my-margin{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.--icon-size{
+    font-size: 25px;
+}
+.--top-color{
+    background-color:darkblue;
+}
+.text-blue{
+    color:var(--second);
+}
+.bg-blue{
+    background-color:var(--second);
+    
+
+}
+.prime{
+    background-color:var(--prime) !important;
+}
+.text-prime{
+   color:rgba(0, 179, 255, 0.719) !important;
+}

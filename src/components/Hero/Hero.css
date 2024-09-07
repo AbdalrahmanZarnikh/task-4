@@ -1,0 +1,23 @@
+:root{
+  --prime:rgba(0, 179, 255, 0.719);
+  --second:rgba(0, 255, 255, 0.598);
+}
+.carousel-image{
+  height: 500px;
+}
+@media screen and (max-width:992px) {
+  .carousel-image{
+    height: 900px;
+  }
+}
+
+.my_border{
+  border-top: 5px solid var(--prime);
+  position: relative;
+  bottom: 60px;
+  padding: 20px;
+}
+
+.--bg-white{
+  background-color: rgba(255, 255, 255, 0.717);
+}
