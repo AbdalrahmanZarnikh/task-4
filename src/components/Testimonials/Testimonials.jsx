@@ -58,18 +58,18 @@ function Testimonials() {
         <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <Row>
-            <Col>
-               <div className="fill w-100 m-auto">
+            <Col sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[0].img} name={data[0].name} job={data[0].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[1].img} name={data[1].name} job={data[1].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block"  sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[2].img} name={data[2].name} job={data[2].job}/>
                </div>
             </Col>
@@ -79,18 +79,18 @@ function Testimonials() {
 
         <Carousel.Item>
           <Row>
-          <Col >
-               <div className="fill w-100 m-auto">
+          <Col sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[3].img} name={data[3].name} job={data[3].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[4].img} name={data[4].name} job={data[4].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[0].img} name={data[0].name} job={data[0].job}/>
                </div>
             </Col>
@@ -100,18 +100,18 @@ function Testimonials() {
 
         <Carousel.Item>
           <Row>
-          <Col >
-               <div className="fill w-100 m-auto">
+          <Col sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[1].img} name={data[1].name} job={data[1].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col sm={12} md={4} className="d-none d-md-block">
+               <div className="fill w-100 ">
                <Testimonial img={data[2].img} name={data[2].name} job={data[2].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col sm={12} md={4} className="d-none d-md-block">
+               <div className="fill w-100 ">
                <Testimonial img={data[3].img} name={data[3].name} job={data[3].job}/>
                </div>
             </Col>
@@ -121,18 +121,18 @@ function Testimonials() {
 
         <Carousel.Item>
           <Row>
-          <Col >
-               <div className="fill w-100 m-auto">
+          <Col  sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[4].img} name={data[4].name} job={data[4].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[0].img} name={data[0].name} job={data[0].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[1].img} name={data[1].name} job={data[1].job}/>
                </div>
             </Col>
@@ -142,18 +142,18 @@ function Testimonials() {
 
         <Carousel.Item>
           <Row>
-          <Col>
-               <div className="fill w-100 m-auto">
+          <Col sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[2].img} name={data[2].name} job={data[2].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[3].img} name={data[3].name} job={data[3].job}/>
                </div>
             </Col>
-            <Col className="d-none d-md-block">
-               <div className="fill w-100 m-auto">
+            <Col className="d-none d-md-block" sm={12} md={4}>
+               <div className="fill w-100 ">
                <Testimonial img={data[4].img} name={data[4].name} job={data[4].job}/>
                </div>
             </Col>
@@ -224,7 +224,7 @@ export default Testimonials;
 //     <Carousel.Item>
 //       <Row>
 //         <Col>
-//         <div className="fill w-100 m-auto">
+//         <div className="fill w-100 ">
 //       <Testimonial img={image.img} name={image.name} job={image.job}/>
 //       </div>
 //         </Col>
