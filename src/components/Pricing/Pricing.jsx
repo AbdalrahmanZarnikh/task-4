@@ -25,7 +25,7 @@ function Pricing() {
               <CardPrice head={"Developer"} number={29}/>
             </Col>
             <Col xs={12} md={6} xl={3} className="mb-4">
-              <CardPrice head={"Ultimate"} number={49}/>
+              <CardPrice head={"Ultimate"} number={49} flag3={true}/>
             </Col>
         </Row>
       </Container>

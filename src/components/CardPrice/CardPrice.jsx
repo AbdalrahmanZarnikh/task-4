@@ -3,12 +3,14 @@ import "../../App.css"
 import "./CardPrice.css"
 import { BiDollar } from "react-icons/bi";
 
-function CardPrice({head,bg,number ,flag1,flag2}) {
+function CardPrice({head,bg,number ,flag1,flag2,flag3}) {
   return (
-    <div className="w-100 text-center shadow rounded-2">
-     <h5 className="top p-3 " style={{backgroundColor:bg?"rgba(0, 179, 255, 0.719)":"rgba(128, 128, 128, 0.219)",color:bg?"white":"black"}}>
+    <div className="w-100 text-center shadow o">
+     <h5 className="top p-3 rounded-1 position-relative" style={{backgroundColor:bg?"rgba(0, 179, 255, 0.719)":"rgba(128, 128, 128, 0.219)",color:bg?"white":"black"}}>
         {head}
+        <span className="prime text-light  pp fw-bold" style={{display:flag3?"inline":"none"}}>Advanced</span>
      </h5>
+     
      <div className="p-4">
         <div className="d-flex justify-content-center align-items-center">
         <h2 className=" fw-bold fs-2 rel d-flex justify-content-center"><BiDollar className="fs-4  ab"/> {number} </h2>

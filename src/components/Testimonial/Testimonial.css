@@ -10,3 +10,6 @@
 .m{
     max-width: 600px;
 }
+.--bg-grey{
+    background-color: rgba(128, 128, 128, 0.178);
+  }

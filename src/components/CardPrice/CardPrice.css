@@ -1,8 +1,11 @@
-/* .rel{
-    position: relative;
-}
-.ab{
+.pp{
     position: absolute;
-    left: 60px;
-    top: -4px;
-} */
+    right: -20px;
+    padding: 4px 30px;
+    transform: rotate(37deg);
+    font-size: 14px ;
+
+}
+.o{
+    overflow: hidden;
+}
