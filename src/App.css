@@ -31,3 +31,23 @@
 .text-prime{
    color:rgba(0, 179, 255, 0.719) !important;
 }
+
+.carousel-indicators [data-bs-target]{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.66) !important;
+  
+}
+.carousel-indicators .active{
+    background-color: var(--prime) !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    color: var(--prime) !important;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: 6% !important;
+}
+
